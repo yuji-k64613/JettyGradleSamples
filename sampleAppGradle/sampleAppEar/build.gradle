@@ -1,0 +1,22 @@
+plugins {
+    id 'ear'
+    id 'eclipse'
+    id 'eclipse-wtp'
+}
+
+dependencies {
+    // warプロジェクトを指定
+    deploy project(path: ':sampleAppWeb', configuration: 'archives')
+}
+
+repositories {
+    jcenter()
+}
+
+ear {
+    deploymentDescriptor {
+        applicationName = "sampleApp"
+        initializeInOrder = true
+        displayName = "sampleApp Ear"
+    }
+}

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+apply plugin: org.example.greeting.GreetingPlugin
+
+mainClassName = 'App'
+hello {
+    message = "メッセージです"
+}
+
+dependencies {
+    compile 'com.google.guava:guava:23.0'
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}

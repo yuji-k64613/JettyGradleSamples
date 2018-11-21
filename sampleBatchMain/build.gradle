@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'eclipse'
+}
+
+mainClassName = 'com.sample.Main'
+
+dependencies {
+    compile 'com.google.guava:guava:23.0'
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.sample.Main'
+    }
+}
+
