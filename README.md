@@ -1,8 +1,8 @@
 # サンプル
 * sampleAppGradle - プロジェクト分割(jersey)
- * sampleAppPojo
- * sampleAppWeb
- * sampleAppEar
+    * sampleAppPojo
+    * sampleAppWeb
+    * sampleAppEar
 * sampleAppServletGradle - servlet
 * sampleAppServletDbGradle - servlet, jndi
 * sampleAppDbGradle - CDI, jersey
