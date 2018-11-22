@@ -11,4 +11,3 @@
 * sampleAppJettyJersey - Embedding, jersey
 * sampleBatchMain - バッチ
 * greeting-plugin - プラグイン
-* test - 色々サンプル
